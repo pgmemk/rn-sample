@@ -84,7 +84,7 @@ function NavigationAnimatedView(props,context){_classCallCheck(this,NavigationAn
 
 // The initial layout isn't measured. Measured layout will be only available
 // when the component is mounted.
-var _this=_possibleConstructorReturn(this,Object.getPrototypeOf(NavigationAnimatedView).call(this,props,context));var layout={
+var _this=_possibleConstructorReturn(this,(NavigationAnimatedView.__proto__||Object.getPrototypeOf(NavigationAnimatedView)).call(this,props,context));var layout={
 height:new Animated.Value(0),
 initHeight:0,
 initWidth:0,

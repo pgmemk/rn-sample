@@ -67,7 +67,7 @@ var _reactAddonsPureRenderMixin=require('react-addons-pure-render-mixin');var _r
 
 PropTypes=React.PropTypes;var
 
-SceneView=function(_React$Component){_inherits(SceneView,_React$Component);function SceneView(){_classCallCheck(this,SceneView);return _possibleConstructorReturn(this,Object.getPrototypeOf(SceneView).apply(this,arguments));}_createClass(SceneView,[{key:'shouldComponentUpdate',value:function shouldComponentUpdate(
+SceneView=function(_React$Component){_inherits(SceneView,_React$Component);function SceneView(){_classCallCheck(this,SceneView);return _possibleConstructorReturn(this,(SceneView.__proto__||Object.getPrototypeOf(SceneView)).apply(this,arguments));}_createClass(SceneView,[{key:'shouldComponentUpdate',value:function shouldComponentUpdate(
 
 
 
@@ -89,7 +89,7 @@ return this.props.sceneRenderer(this.props.sceneRendererProps);
 /**
  * Component that renders the scene as card for the <NavigationCardStack />.
  */SceneView.propTypes={sceneRenderer:PropTypes.func.isRequired,sceneRendererProps:NavigationPropTypes.SceneRenderer};var
-NavigationCard=function(_React$Component2){_inherits(NavigationCard,_React$Component2);function NavigationCard(){_classCallCheck(this,NavigationCard);return _possibleConstructorReturn(this,Object.getPrototypeOf(NavigationCard).apply(this,arguments));}_createClass(NavigationCard,[{key:'shouldComponentUpdate',value:function shouldComponentUpdate(
+NavigationCard=function(_React$Component2){_inherits(NavigationCard,_React$Component2);function NavigationCard(){_classCallCheck(this,NavigationCard);return _possibleConstructorReturn(this,(NavigationCard.__proto__||Object.getPrototypeOf(NavigationCard)).apply(this,arguments));}_createClass(NavigationCard,[{key:'shouldComponentUpdate',value:function shouldComponentUpdate(
 
 
 

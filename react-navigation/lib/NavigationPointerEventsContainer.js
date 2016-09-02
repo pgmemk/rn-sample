@@ -63,7 +63,7 @@ Container=function(_React$Component){_inherits(Container,_React$Component);
 
 
 
-function Container(props,context){_classCallCheck(this,Container);var _this=_possibleConstructorReturn(this,Object.getPrototypeOf(Container).call(this,
+function Container(props,context){_classCallCheck(this,Container);var _this=_possibleConstructorReturn(this,(Container.__proto__||Object.getPrototypeOf(Container)).call(this,
 props,context));
 _this._pointerEvents=_this._computePointerEvents();return _this;
 }_createClass(Container,[{key:'componentWillMount',value:function componentWillMount()

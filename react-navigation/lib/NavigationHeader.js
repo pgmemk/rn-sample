@@ -74,7 +74,7 @@ var APPBAR_HEIGHT=Platform.OS==='ios'?44:56;
 var STATUSBAR_HEIGHT=Platform.OS==='ios'?20:0;var
 PropTypes=React.PropTypes;var
 
-NavigationHeader=function(_React$Component){_inherits(NavigationHeader,_React$Component);function NavigationHeader(){_classCallCheck(this,NavigationHeader);return _possibleConstructorReturn(this,Object.getPrototypeOf(NavigationHeader).apply(this,arguments));}_createClass(NavigationHeader,[{key:'shouldComponentUpdate',value:function shouldComponentUpdate(
+NavigationHeader=function(_React$Component){_inherits(NavigationHeader,_React$Component);function NavigationHeader(){_classCallCheck(this,NavigationHeader);return _possibleConstructorReturn(this,(NavigationHeader.__proto__||Object.getPrototypeOf(NavigationHeader)).apply(this,arguments));}_createClass(NavigationHeader,[{key:'shouldComponentUpdate',value:function shouldComponentUpdate(
 
 
 

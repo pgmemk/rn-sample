@@ -93,7 +93,7 @@ NavigationCardStackPanResponder=function(_NavigationAbstractPa){_inherits(Naviga
 function NavigationCardStackPanResponder(
 direction,
 props)
-{_classCallCheck(this,NavigationCardStackPanResponder);var _this=_possibleConstructorReturn(this,Object.getPrototypeOf(NavigationCardStackPanResponder).call(this));
+{_classCallCheck(this,NavigationCardStackPanResponder);var _this=_possibleConstructorReturn(this,(NavigationCardStackPanResponder.__proto__||Object.getPrototypeOf(NavigationCardStackPanResponder)).call(this));
 
 _this._isResponding=false;
 _this._isVertical=direction===Directions.VERTICAL;

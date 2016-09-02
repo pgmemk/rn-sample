@@ -79,7 +79,7 @@ function NavigationTransitioner(props,context){_classCallCheck(this,NavigationTr
 
 // The initial layout isn't measured. Measured layout will be only available
 // when the component is mounted.
-var _this=_possibleConstructorReturn(this,Object.getPrototypeOf(NavigationTransitioner).call(this,props,context));var layout={
+var _this=_possibleConstructorReturn(this,(NavigationTransitioner.__proto__||Object.getPrototypeOf(NavigationTransitioner)).call(this,props,context));var layout={
 height:new Animated.Value(0),
 initHeight:0,
 initWidth:0,
