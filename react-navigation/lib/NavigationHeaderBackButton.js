@@ -16,7 +16,7 @@
 'use strict';
 
 var React=require('react');
-var ReactNative=require('react-native');var 
+var ReactNative=require('react-native');var
 
 
 Image=
@@ -33,10 +33,10 @@ uri:'https://raw.githubusercontent.com/facebook/react-native/master/Libraries/Cu
 
 
 if(Platform.OS!=='web'){
-backBtnSource=require('./assets/back-icon.png');}
+backBtnSource=require('./assets/back-icon.png');
+}
 
-
-var NavigationHeaderBackButton=function NavigationHeaderBackButton(props){return (
+var NavigationHeaderBackButton=function NavigationHeaderBackButton(props){return(
 React.createElement(TouchableOpacity,{style:styles.buttonContainer,onPress:props.onBackPress},
 React.createElement(Image,{style:styles.button,source:backBtnSource})));};
 
@@ -56,7 +56,7 @@ button:{
 height:24,
 width:24,
 margin:Platform.OS==='ios'?10:16}});
-// resizeMode: 'contain'
+
 
 
 

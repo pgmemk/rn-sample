@@ -46,6 +46,10 @@ class AppContainer extends React.Component {
     return false;
   };
 
+  componentWillMount() {
+    AsyncStorage.clear()
+  }
+
   componentDidMount() {
     Linking.getInitialURL().then(url => {
       const linkAction = url && MainApp.actionWithLocation(parseUrlWithPrefix(url, 'navapp:/'));
