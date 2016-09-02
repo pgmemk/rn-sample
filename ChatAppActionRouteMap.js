@@ -13,6 +13,7 @@ const ChatAppActionRouteMap = [
     renderer: ({dispatch, state}) => (
       <Chat
         name={state.name}
+        embedded={state.embedded}
         onChatListPress={() => {
           dispatch(ChatAppActions.chatList());
         }}

@@ -41,7 +41,7 @@ export function ChatList(props) {
 
 export function Chat(props) {
   return (
-    <View style={styles.chatContainer}>
+    <View style={[styles.chatContainer, { marginTop: props.embedded ? 50 : 0 }]}>
     <ScrollView style={styles.chat}>
       <Text style={styles.contextRow} onPress={props.onChatListPress}>{props.name}. Tap to see all</Text>
       <View style={styles.chatBubbleRow}>
@@ -104,6 +104,7 @@ const styles = StyleSheet.create({
   },
   chatContainer: {
     flex: 1,
+    // marginTop: 50
   },
   chatBubbleIcon: {
     width: 50,

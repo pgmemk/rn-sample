@@ -96,7 +96,7 @@ class ArticlesApp extends Component {
         <Text
           onPress={() => {
             const name = 'Discuss "' + post.title + '"';
-            this.props.dispatch(ArticlesAppActions.chat({name}))
+            this.props.dispatch(ArticlesAppActions.chat({name, embedded:true}))
           }}
           style={styles.headerButton}>
         Comment
