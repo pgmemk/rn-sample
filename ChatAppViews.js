@@ -1,4 +1,3 @@
-
 import React, {
   Component,
   ScrollView,
@@ -31,7 +30,15 @@ export function ChatList(props) {
           name={name}
           color={COLORS[index % COLORS.length]}
           onPress={() => {
-            props.onChatSelect(name);
+            if (index % 2) {
+              console.log('going to articles')
+              // odd
+              props.dispatch(require('./ArticlesAppActions').default())
+            } else {
+              // even
+              console.log('going to chat')
+              props.onChatSelect(name);
+            }
           }}
         />
       )}

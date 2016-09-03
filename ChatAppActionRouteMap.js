@@ -14,6 +14,7 @@ const ChatAppActionRouteMap = [
       <Chat
         name={state.name}
         embedded={state.embedded}
+        dispatch={dispatch}
         onChatListPress={() => {
           dispatch(ChatAppActions.chatList());
         }}
@@ -25,6 +26,7 @@ const ChatAppActionRouteMap = [
     getTitle: (state) => 'All Chats',
     renderer: ({dispatch, state}) => (
       <ChatList
+        dispatch={dispatch}
         onChatSelect={(name) => {
           dispatch(ChatAppActions.chat({name}));
         }}

@@ -6,13 +6,15 @@ import React, {
   Platform,
 } from 'react-native';
 
+// import AppsApp from './AppsApp'
 import ArticlesApp from './ArticlesApp'
 import ChatApp from './ChatApp'
 
-// const MainApp = ArticlesApp;
+// const MainApp = AppsApp
+const MainApp = ArticlesApp;
 
 // For a simpler example:
-const MainApp = ChatApp;
+// const MainApp = ChatApp;
 
 import { parseUrlWithPrefix } from './utils'
 
